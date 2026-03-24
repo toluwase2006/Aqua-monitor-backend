@@ -1,0 +1,32 @@
+{
+  "name": "aqua-monitor-backend",
+  "version": "1.0.0",
+  "description": "\"# EstateEaseFrontend\" \r \"# fitnessAplicationFrontend\" \r \"# Aqua-monitor-backend\" \r \"# Aqua-monitor-backend\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toluwase2006/Aqua-monitor-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/toluwase2006/Aqua-monitor-backend/issues"
+  },
+  "homepage": "https://github.com/toluwase2006/Aqua-monitor-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.3.2",
+    "nodemon": "^3.1.14"
+  }
+}
