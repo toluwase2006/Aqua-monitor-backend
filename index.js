@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:8080",
-    "https://estateease-3tdu.onrender.com"
+    'https://aqua-monitor-pro.onrender.com',
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
