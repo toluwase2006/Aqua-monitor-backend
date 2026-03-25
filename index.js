@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const authRoutes = require('./routes/auth.routes');
+const dataEntryRoutes = require('./routes/dataentry.routes');
 const cors = require('cors');
 require("dotenv").config();
 
@@ -23,6 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //  Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/dataentry', dataEntryRoutes);
 
 //  Dynamic port for Render
 const PORT = process.env.PORT || 5000;
